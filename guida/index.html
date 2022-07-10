@@ -1,0 +1,607 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Sistemi i e-Menaxhimit Spitalor</title>
+<meta name="description" content="">
+<meta name="author" content="Ilirian Rexho">
+<meta name="copyright" content="Ilirian Rexho">
+<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+<meta name="date" content="2013-08-15T00:00:00+02:00">
+<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script>document.createElement('section');var duration='500',easing='swing';</script>
+<script src="assets/js/script.js"></script>
+<style>
+		html{background-color:#EEEEEE;color:#383838;}
+		::-moz-selection{background:#333636;color:#FFFFFF;}
+		::selection{background:#333636;color:#FFFFFF;}
+		#documenter_sidebar #documenter_logo{background-image:url(image/logoEvogel.png);}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#156A7A), to(#006673));
+			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+			  background-image: linear-gradient(top, #008C9E, #006673);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+			  border-color: #006673 #006673 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #008C9E #008C9E #bfbfbf;
+		  background-color: #006673;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#156A7A;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #0D5254;-moz-text-shadow:1px 1px 0px #0D5254;text-shadow:1px 1px 0px #0D5254;}
+		#documenter_sidebar ul{border-top:1px solid #179990;}
+		#documenter_sidebar ul a{border-top:1px solid #0D5254;border-bottom:1px solid #179990;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#FFFFFF;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#FFFFFF;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+		.preview
+		{
+			max-height:600px;
+			-webkit-box-shadow:0 0px 15px 0 rgba(0,0,0,0.1);
+			-moz-box-shadow:0 0px 15px 0 rgba(0,0,0,0.1);
+			box-shadow:0 0px 15px 0 rgba(0,0,0,0.1);
+			clear: both;
+			margin: 20px 100px;
+		}
+</style>
+</head>
+<body class="menaxhimi spitalor">
+<div id="documenter_sidebar">
+	<a href="#documenter_cover" id="documenter_logo"></a>
+	<ul id="documenter_nav">
+		<li><a class="current" href="#documenter_cover">Startimi</a></li>
+		<li><a href="#key_features" title="Key Features">Tiparet kryesore</a></li>
+		<li><a href="#installation" title="Installation -">Instalimi -</a></li>
+		<li><a href="#administrator" title="Administrator -">Administratori -</a></li>
+		<li><a href="#doctor" title="Doctor -">Mjeku -</a></li>
+		<li><a href="#patient" title="Patient -">Pacienti -</a></li>
+		<li><a href="#nurse" title="Nurse -">Infermieri -</a></li>
+		<li><a href="#pharmacist" title="Pharmacist -">Farmacisti -</a></li>
+		<li><a href="#laboratorist" title="Laboratorist -">Laboranti -</a></li>
+		<li><a href="#accountant" title="Accountant -">Llogaritari -</a></li>
+		<li><a href="#convert_to_your_language" title="Convert to your language">Rregullimi i gjuhes se sistemit</a></li>
+        <li><a href="#import_language_pack" title="Import language pack">Importo pakete gjuhe</a></li>
+        <li><a href="#rtl_settings" title="rtl option">Rregullimet e Sistemit</a></li>
+        <li><a href="#default_language" title="Default software language">Rregullimet SMS</a></li>
+		<li><a href="#backup_restore" title="Backup restore">Backup dhe restore</a></li>
+		<li><a href="#responsive" title="Responsive">Responsiviteti</a></li>
+		<li><a href="#developer_support" title="Developer support">Suport i metejshem</a></li>
+	</ul>
+	<div id="documenter_copyright">
+		Copyright <a href="http://www.computerhouse.al" target="_blank">Ilirjan Rexho</a> 2016<br>
+	</div>
+</div>
+<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Sistemi i e-Menaxhimit Spitalor</h1>
+	<h2>Sistemi i Avancuar i Menaxhimit Spitalor, Klinik ose Institute Shendetesore</h2>
+	<div id="documenter_buttons">
+	</div>
+	<hr>
+	<ul>
+		<li>versioni: <em><strong>1.0</strong></em></li>
+		<li>Krijuar: 23/5/2016</li>
+		<li>Ndryshimi i fundit: 12/6/2016</li>
+		<li>nga: Ilirjan Rexho</li>
+		<li>
+            <a href="http://www.computerhouse.al">
+            	<img src="image/logo.png" width="250" height="250"/>
+            </a>
+		</li>
+		<li>
+        	<a href="mailto:ilrexho@hotmail.com">
+            	<img src="image/email.png"/>
+            </a>
+            
+        </li>
+	</ul>
+	<p>
+		Faleminderit per interesin e treguar per softin tone. Nese keni pyetje qe dalin matane skopit te ketij manuali ndihmes, ju lutemi te mos hezitoni te kontaktoni nepermjet postes elektronike duke shfrytezuar formen e kontaktit, krijuar enkas per kete qellim.
+	</p>
+    <p>
+    	<img src="image/profile1.png" />
+    </p>
+	</section>
+	<section id="key_features">
+	<div class="page-header">
+		<h3>Tiparet kryesore</h3>
+		<hr class="notop">
+	</div>
+	<div>
+		 I zhvilluar, i fuqishem, program i plote dhe fleksibel per menaxhimin e aktivitetit te nje Spitali apo nje Klinike mjeksore, si dhe institucione te tjera shendetsore. Integron dhe vendos ne nderveprim nje seri modulesh te cilet prezantojne aktoret dhe faktoret e aktivitetit te perditshem te ketyre institucioneve:
+	</div>
+	<ul>
+		<li>
+		Administratori</li>
+		<li>
+		Mjeku</li>
+		<li>
+		Pacienti</li>
+		<li>
+		Infermieri</li>
+		<li>
+		Farmacisti</li>
+		<li>
+		Laboranti</li>
+		<li>
+		Llogaritari</li>
+	</ul>
+	<div>
+		 &nbsp;
+	</div>
+	<div>
+		 &nbsp;
+	</div>
+    <p>
+		<img src="image/login.jpg" class="preview" />
+	</p>
+	</section>
+	<section id="installation">
+	<div class="page-header">
+		<h3>Instalimi</h3>
+		<hr class="notop">
+	</div>
+	<ol>
+		<li>
+		Dosja klinika eshte e kompresuar me winrar</li>
+		<li>
+		Ngarkohet dosja me emrin klinika (qe mund ta kemi kompresuar me winrar, per te pershpejtuar procesin e ngarkimit) ne direktorine "public html" te serverit</li>
+        
+        <li>
+		Extraktohet skedari klinika.rar</li>
+	<li>
+		Krijojme nje database te re nga server mysql ose phpmyadmin</li>
+	<li>
+		Krijohet nje perdorues per databazen, lidhet databaza me kete perdorues duke i dhene atij te gjitha privilegjet</li>
+	<li>
+		Hapet skedari i ndertuar enkas per te dhenat e aksesimit te bazes se te dhenave. Ky skedar eshte emertuar database.php dhe ndodhet ne lokacionin:  /apliakacioni/config/database.php
+</li>
+	<li>
+		Plotesohen informacionet e kerkuara per aksesimin e database, te cilat jane: hostname, database username, database password, database name te cilat respektivisht i kemi nga hapi i krijimit te databazes.</li>
+    <li>
+    	Ne vazhdim qe nga utiliteti phpmyadmin i serverit shkohet tek databaza ne rastin tone me emrin klinika. Zgjidhet opsioni import dhe me pas zgjidhet skedari instalimi.sql qe ndodhet tek uploads/instalimi.sql </li>
+	<li>
+		Nga ky moment e ne vazhdim mund te startojme aplikacionin</li>
+	<li>
+		Kredencialet e adminit jane: Email: admin@klinika.al Passwordi: 123456</li>
+	</ol>
+	<div>
+		 &nbsp;
+	</div>
+	<div>
+		 &nbsp;
+	</div>
+    <p>
+		<img src="image/databaza.png" class="preview" width="900"/>
+	</p>
+	</section>
+	<section id="administrator">
+	<div class="page-header">
+		<h3>Administratori -</h3>
+		<hr class="notop">
+	</div>
+	<ul>
+		<li>
+		Menaxhon Pavionet e Klinikes</li>
+		<li>
+		Menaxhon llogarite e Mjekve</li>
+		<li>
+		Menaxhon llogarite e Pacienteve</li>
+		<li>
+		Menaxhon llogarite e Infermiereve</li>
+		<li>
+		Menaxhon llogarite e Farmacisteve</li>
+		<li>
+		Menaxhon llogarite e Laboranteve</li>
+		<li>
+		Menaxhon llogarite e Llogaritareve</li>
+		<li>
+		Monitoron eventet ne Klinike si:
+		<ul>
+			<li>
+			Sheh vizitat e mjekeve</li>
+			<li>
+			Sheh raportet e pagesave te pacienteve</li>
+			<li>
+			Sheh statusin e dhomave dhe shtreterve ne to</li>
+			<li>
+			Sheh raportin e Bankes se Gjakut</li>
+			<li>
+			Sheh gjendjen e Barnave ne Klinike</li>
+			<li>
+			Sheh raportet e operacioneve</li>
+			<li>
+			Sheh raportet e lindjeve</li>
+			<li>
+			Sheh raportet e diagnozave</li>
+			<li>
+			Sheh raportet e vdekjeve</li>
+			<li>
+			Nderton grafike me te dhenat e vizitave dhe pacienteve ne klinike</li>
+		</ul>
+		</li>
+		<li>
+		Kontrollon Dokumentat e cdo pacienti</li>
+		<li>
+		Sheh statusin e shtreterve dhe historikun e pranimeve</li>
+		<li>
+		Menaxhon Njoftimet per te gjithe perdoruesit e Klinikes</li>
+		<li>
+		Menaxhon Rregullimet e Sistemit</li>
+		<li>
+		Sheh logimet ne sistem dhe nderveprimin e perdoruesve</li>
+		<li>
+		Menaxhon gjuhet e softwar-it</li>
+		<li>
+		Create your own language and convert the language phrases easily</li>
+		<li>
+		Create backup and restore anytime</li>
+		<li>
+		Manage own profile</li>
+		<li>
+		Access account from anywhere, by any device like desktop, laptop, smartphone and tablet</li>
+	</ul>
+	<p>
+		<img src="image/admin_platform.png" class="preview" width="900" />
+		<img src="image/admin_pavionet.png" class="preview" width="900" />
+		<img src="image/admin_mjeket.png" class="preview" width="900" />
+		<img src="image/admin_pacientet.png" class="preview" width="900" />
+	</p>
+	<p>&nbsp;
+		
+	</p>
+    
+	</section>
+	<section id="doctor">
+	<div class="page-header">
+		<h3>Mjeku -</h3>
+		<hr class="notop">
+	</div>
+	<ul>
+		<li>
+		Menaxhon llogarite e pacienteve duke i krijuar apo perditesuar</li>
+		<li>
+		Krijon dhe menxhon vizitat me klientet</li>
+		<li>
+		Krijo receta per pacientet</li>
+		<li>
+		Ruan te dhenat e historikut te trajtimit te nje pacienti</li>
+		<li>
+		Ofron kurimin per pacientet e shtruar ne klinike</li>
+		<li>
+		Sheh raportet e diagnozave te pacienteve si dhe analizat e kryera neper laboratoret e klinikes</li>
+		<li>Kryen shtrimin e pacienteve, ose daljen e tyre nga pas kurimit</li>
+		<li>
+		Sheh gjendjen e Bankes se Gjakut</li>
+		<li>
+		Kryen operime dhe harton raportin e tyre per pacientett</li>
+		<li>
+		Menaxho profilin e vet</li>
+		<li>
+		Akseson llogarine e vet gjithandej dhe me gjithfarelloj pajisjesh</li>
+	</ul>
+	<p>
+		<img src="image/mjeku_platform.png" class="preview" width="900" />
+		<img src="image/mjeku_raportet.png" class="preview" width="900" />
+        <img src="image/mjeku_recete.png" class="preview" />
+        <img src="image/mjeku_vizitat.png" class="preview" width="900" />
+	</p>
+	</section>
+	<section id="patient">
+	<div class="page-header">
+		<h3>Pacienti -</h3>
+		<hr class="notop">
+	</div>
+	<ul>   
+		<li>
+		Sheh listen e vizitave dhe statusin e tyre tek mjeku.</li>
+		<li>
+        Sheh recetat/mjekimin e dhene nga mjeku.   </li>
+		<li>
+		Sheh mjekimin e ndjekur nga infermieri.</li>
+		<li>
+		Sheh/Shkarkon te gjitha raportet e mundshme te krijuara nga sistemi per te.</li>
+		<li>
+		Sheh listen e mjekeve disponibel.</li>
+		<li>
+		Sheh statusin e Bankes se Gjakut</li>
+		<li>
+		Sheh historikun e operacioneve te kryera</li>
+		<li>
+		Sheh historikun e shtrimeve, pavionin, shtratin, periudhen e shtrimit, etj</li>
+		<li>
+		Sheh faturat e pagesave</li>
+		<li>
+		Paguan ne menyren cash prane llogaritarit ose me metoden online&nbsp;</li>
+		<li>
+		Menaxhon profilin e tij</li>
+		<li>
+		Akseson sistemin gjithandej ku ka internet, si dhe nga paisje e munshme si desktop, laptop, smartphone dhe tablet</li>
+	</ul>
+    <p>
+    	<img src="image/pacienti_platform.png" class="preview" width="900"/>
+        <img src="image/pacienti_vizitat.png" class="preview" width="900"/>
+        <img src="image/pacienti_faturat.png" class="preview" width="900"/>
+    </p>
+	</section>
+	<section id="nurse">
+	<div class="page-header">
+		<h3>Infermieri -</h3>
+		<hr class="notop">
+	</div>
+	<ul>
+		<li>
+		Menaxhon pacientet, krijon dhe perditeson llogarite e tyre</li>
+		<li>
+		Kontrollon gjendjen e shtreterve dhe ngarkesat e pavioneve nga pacientet</li>
+		<li>
+		Ofron mjekimin me barna sipas recetes se leshuar nga mjeku</li>
+		<li>
+		Menaxhon Banken e Gjakut dhe e perditeson gjendjen e saj</li>
+		<li>
+		Menaxhon dhuruesit e gjakut</li>
+		<li>
+		Ruan regjistrimet per operacionet e pacienteve, si dhe raportet e lindjeve apo vdekjeve</li>
+		<li>
+		Menaxhon profilin e tij</li>
+		<li>
+		Akseson sistemin gjithandej ku ka internet, si dhe nga paisje e munshme si desktop, laptop, smartphone dhe tablet</li>
+	</ul>
+    <p>
+    	<img src="image/infermieri_platform.png" class="preview" width="900"/>
+        <img src="image/infermier_shtreter.png" class="preview" width="900"/>
+        <img src="image/infermier_raport.png" class="preview" width="900"/>
+    </p>
+	</section>
+	<section id="pharmacist">
+	<div class="page-header">
+		<h3>Farmacisti -</h3>
+		<hr class="notop">
+	</div>
+	<ul>
+		<li>
+		Miremban barnat</li>
+		<li>
+		Ruan rekordet e stokut te barnave te spitalit duke ndjekur gjendjen e barnave</li>
+		<li>
+		Menaxhon kategorite e barnave</li>
+		<li>
+		Sheh recetat e leshuara per pacientet</li>
+		<li>
+		Ofron barnat sipas recetave</li>
+		<li>
+		Menaxhon profilin e tij</li>
+		<li>
+		Akseson sistemin gjithandej ku ka internet, si dhe nga paisje e munshme si desktop, laptop, smartphone dhe tablet</li>
+	</ul>
+    <p>
+    	<img src="image/farmacist_platforma.png" class="preview" width="900" />
+        <img src="image/farmacisti_barnat.png" class="preview" width="900" />
+    </p>
+	</section>
+	<section id="laboratorist">
+	<div class="page-header">
+		<h3>Laboranti -</h3>
+		<hr class="notop">
+	</div>
+	<ul>
+		<li>
+		Sheh listen e recetave</li>
+		<li>
+		Ngarkon raportet diagnostifikuese</li>
+		<li>
+		Sheh skedaret e raporteve te ndryshme te analizave me rreze, skanera etj.</li>
+		<li>
+		Menaxhon Banken e Gjakut</li>
+		<li>
+		Menaxhon dhuruesit e gjakut dhe miremban te dhenat e statusit te tyre</li>
+		<li>
+		Menaxhon profilin e tij</li>
+		<li>
+		Akseson sistemin gjithandej ku ka internet, si dhe nga paisje e munshme si desktop, laptop, smartphone dhe tablet</li>
+	</ul>
+    <p>
+    	<img src="image/laborant_platforma.png" class="preview" width="900"/>
+        <img src="image/laborant_dhurues_gjaku.png" class="preview" width="900"/>
+    </p>
+	</section>
+	<section id="accountant">
+	<div class="page-header">
+		<h3>Llogaritari -</h3>
+		<hr class="notop">
+	</div>
+	<ul>
+		<li>
+		Krijon fatura per pagesat e sherbimit</li>
+		<li>
+		Dergon faturat tek pacientet</li>
+		<li>
+		Pranon pagesa cash te faturave&nbsp;</li>
+		<li>
+		Ndjek historikun e pagesave te pacienteve duke i perditesuar statuset e tyre</li>
+		<li>
+		Menaxhon profilin e tij</li>
+		<li>
+		Akseson sistemin gjithandej ku ka internet, si dhe nga paisje e munshme si desktop, laptop, smartphone dhe tablet</li>
+	</ul>
+    <p>
+    	<img src="image/llogaritar_platforma.png" class="preview" width="900" />
+        <img src="image/llogaritar_menaxho-fature.png" class="preview" width="900" />
+        <img src="image/llogaritar_fature.png" class="preview" width="900" />
+    </p>
+	</section>
+	<section id="convert_to_your_language">
+	<div class="page-header">
+		<h3>Rregullimi i gjuhes se sistemit</h3>
+		<hr class="notop">
+	</div>
+	<p>
+		 Sistemi eshte i dizenjuar ne kater gjuhe kryesore, konkretisht ne shqip, anglisht, italisht dhe gjermanisht. Per ndryshimin e gjuuhes se interfaces veprohet keshtu
+	</p>
+	<ul>
+		<li>
+		Logohemi si administrator</li>
+		<li>
+		Shkojme tek opsioni Rregullimet<em> &gt; Menaxho gjuhe</em>n</li>
+		<li>
+		Mund te zgjidhni nje nga gjuhet ose mund te shtoni nje gjuhe te re duke perkthyer frazat e gjuhes duke shtuar gjuhen e re ne databaze</li>
+		<li>
+		Perditesoni ndryshimet e bera dhe gjithcka eshte gati
+          <p>
+            <img src="image/gjuhet.png" class="preview" width="900" />
+            <img src="image/gjuhet_shtimi.png" class="preview" width="900" />
+          </p>
+	    </li>
+	</ul>
+	</section>
+    
+    
+    <section id="import_language_pack">
+        <div class="page-header">
+      <h3>Importimi i paketes se gjuhes</h3><hr class="notop"></div>
+    <p>
+        Per nje lehtesi me te madhe ne pershtatjen e gjuhes se interfaces, eshte parapare mundesia e shtimit te paketave te gjuheve edhe me ane te phpmyadmin. Per kete me pare shtojme frazat e asaj gjuhe ne skedarin gjuha.sql, e cila permban scriptin e shtimit te te dhena ne databaze, ne tabelen gjuhet</p>
+    <ul>
+        <li>
+            Logohemi ne phpmyadmin</li>
+        <li>
+            Zgjedhim opsionin  database, ku duhet ekzekutuar scripti</li>
+        <li>
+            Zgjedhim opsionin import ne anen e djathte</li>
+        <li>
+            Ngarkojme skedarin gjuhet.sql te cilin e kemi vendosur ne direktorine 'uploads' dhe realizojme importimin</li>
+        <li>
+            Numri i gjuheve eshte shtuar gje qe mund ta shohim ne Platformen e Admin
+            <p>
+              <img src="image/gjuhet_dtb.png" class="preview" width="900"/>
+            </p>
+        </li>
+    </ul>
+    </section>
+    
+    <section id="rtl_settings">
+        <div class="page-header">
+          <h3>Rregullimet e sistemit</h3><hr class="notop"></div>
+        <ul>
+            <li>
+                Logohemi si admin</li>
+            <li>
+                Zgjedhim menune Rregullimet -> Rregullimet e Sistemit</li>
+            <li>
+                Zgjedhim opsionin e duhur per standartet kryesore si ne figuren me poshte</li>
+            <li>Mes opsioneve vecojme opsionin Orientimi i tekstit -> Nga e Majta ne te Djathte ose ( LTR ) si dheNga e Djathta ne te Majte ( RTL )</li>
+            <li>
+                Ruajme ndryshimet e bera</li>
+        </ul>
+
+            <img src="image/admin_rregullimet_sistem.png" class="preview" width="900" />
+        </p>
+    </section>
+    
+    
+    <section id="default_language">
+      <div class="page-header">
+        <h3>Rregullimet SMS</h3><hr class="notop"></div>
+        <ul>
+            <li>Logohemi si admin</li>
+            <li> Zgjedhim menune Rregullimet -> Rregullimet SMS</li>
+            <li> Zgjedhim opsionin e duhur per Userin, passwordin dhe Api ID</li>
+            <li> Ruajme ndryshimet e bera</li>
+        </ul>
+
+            <img src="image/sms_rregullimet.png" class="preview" width="900" />
+        </p>
+    </section>
+    
+
+	<section id="backup_restore">
+	<div class="page-header">
+		<h3>Backup dhe restore</h3>
+		<hr class="notop">
+	</div>
+	<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+		<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Mund te krijojme kopje backup per objekte individual dhe me pas te mund ti perdorim per restore-&nbsp;
+		<ul>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(251, 251, 251);">Mjeku</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(243, 244, 248);">Pacienti</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(251, 251, 251);">Infermieri</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(243, 244, 248);">Farmacisti</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(251, 251, 251);">Laboranti</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(243, 244, 248);">Llogaritari</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(251, 251, 251);">Vizitat</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(243, 244, 248);">Pagesat</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(251, 251, 251);">Banka e Gjakut</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(243, 244, 248);">Barnat</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(251, 251, 251);">Raportet</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(243, 244, 248);">Njoftimet</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(251, 251, 251);">Logimi</span></li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+			<span style="color: rgb(90, 101, 115); font-family: 'Open Sans', HelveticaNeue, Helvetica, Arial; line-height: 20px; background-color: rgb(243, 244, 248);">Gjuhet</span></li>
+		</ul>
+		</li>
+	</ul>
+	</section>
+	<section id="responsive">
+	<div class="page-header">
+		<h3>Responsiviteti i Sistemit</h3>
+		<hr class="notop">
+	</div>
+	<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+		<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		I gjithe Sistemi eshte responsive. Per rrjedhoje mund ta menaxhoni punen tuaj kudo dhe me cfaredo paisje qe keni me vete.</li>
+	</ul>
+    <img src="image/desktop.png" class="preview" /><img src="image/tableti.png" class="preview" />
+	</section>
+	<section id="developer_support">
+	<div class="page-header">
+		<h3>Suport prej zhvilluesit</h3>
+		<hr class="notop">
+	</div>
+	<p>
+		<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; line-height: 18px;">Per cdo paqartesi ose info me te detajuar mund te kontaktoni me ILIRJAN REXHO, nepermjet PM. Vizitoni faqen tone <a href="http://www.computerhouse.al" >Computer House</a> Ju faleminderit per interesimin.</span>
+	</p><img src="image/logo_ch_01.png" />
+	<p>&nbsp;
+		
+	</p>
+	<p>&nbsp;
+		
+	</p>
+	</section>
+</div>
+</body>
+</html>
